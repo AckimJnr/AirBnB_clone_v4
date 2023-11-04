@@ -150,6 +150,43 @@ EOF  all  create  destroy  help  quit  show  update
 (hbnb) quit
 ```
 
+# AirBnB clone - Web dynamic
+* Requesting Your Own API
+> * To create and request your own API, you can use server-side technologies like Node.js, Python with Flask or Django, or any other backend framework. You would define endpoints and handle HTTP requests.
+* Modify an HTML Element Style
+> * You can modify the style of an HTML element using JavaScript. Here's an example to change the background color of an element with the ID 'myElement':
+> > * const element = document.getElementById('myElement');
+> > * element.style.backgroundColor = 'blue';
+* Get and Update an HTML Element Content
+> * To get and update the content of an HTML element, you can use the innerHTML property. For example:
+> > * const element = document.getElementById('myElement');
+> > * const content = element.innerHTML; // Get content
+> > * element.innerHTML = 'New content'; // Update content
+* Modify the DOM
+> * You can modify the DOM (Document Object Model) using JavaScript. For example, to create a new element and append it to the document:
+> > * const newElement = document.createElement('div');
+> > * newElement.textContent = 'This is a new
+> > * document.body.appendChild(newElement);
+* Make a GET Request with jQuery Ajax
+> * Here's an example of making a GET request using jQuery's Ajax function:
+> > * $.ajax({
+> > *     url: 'https://api.example.com/data',
+> > *     method: 'GET',
+> > *     success: function(data) {
+> > *         // Handle the response data
+> > *     },
+> > *     error: function(error) {
+> > *         // Handle errors
+> > *     }
+> > * });
+* Make a POST Request with jQuery Ajax
+> * Making a POST request with jQuery Ajax looks similar to the GET request, but you specify the HTTP method as 'POST' and provide data to send
+* Listen/Bind to DOM Events
+> * You can listen to DOM events using JavaScript. For example, to listen for a click event on an element with the ID 'myButton':
+> > * const button = document.getElementById('myButton');
+> > * button.addEventListener('click', function() {
+> > * });
+
 ## Bugs
 No known bugs at this time. 
 
@@ -158,7 +195,8 @@ Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twit
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
-
+Mumbi Wangari - [Github](https://github.com/Mumbi69) 
+Ackim Longwe  - [Github](https://github.com/AckimJnr)
 Second part of Airbnb: Joann Vuong
 ## License
 Public Domain. No copy write protection. 
